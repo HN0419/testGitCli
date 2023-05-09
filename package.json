@@ -1,0 +1,19 @@
+{
+  "name": "pw_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "RunTest": "npx playwright test",
+    "RunTest_selectproducts": "npx playwright test -g \"select products\"",
+    "RunTest_selectproductsTD": "npx playwright test -g \"select product from TD\"",
+    "RunTest_sociallinksvalidation": "npx playwright test -g \"social links validation\""
+  },
+  "keywords": [],
+  "author": "Hemalatha",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.0",
+    "typescript": "^5.0.2"
+  }
+}
